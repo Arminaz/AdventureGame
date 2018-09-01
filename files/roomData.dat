@@ -1,0 +1,100 @@
+0
+-1 -1 2 -1 Surgical Suite
+0 0 0 10 0
+
+1
+-1 2 7 -1 Specimin Holdings
+1 0 0 0 0
+
+2
+0 -1 -1 1 Detainment Center
+0 1 8 0 1
+
+3
+-1 4 8 -1 Living Quarters
+1 4 9 0 4
+
+4
+-1 -1 -1 3 Recreation Room
+0 0 0 10 0
+
+5
+-1 6 -1 -1 Sample Storage
+0 0 0 10 0
+
+6
+-1 7 11 5 East Courtyard
+0 2 11 0 2
+
+7
+1 -1 12 6 West Courtyard
+1 0 0 0 0
+
+8
+3 -1 16 -1 North Hallway
+1 0 0 0 0
+
+9
+-1 10 18 -1 A Hamlet
+1 0 0 0 0
+
+10
+-1 -1 19 9 The Den
+0 0 0 0 0
+
+11
+6 12 -1 -1 Hole in the Wall
+1 0 0 0 0
+
+12
+7 13 20 11 Courtyard Entryway
+1 3 10 0 3
+
+13
+-1 14 -1 12 West Hallway
+0 0 0 0 0
+
+14
+-1 15 21 13 Compound Entryway
+1 0 0 0 0
+
+15
+-1 16 -1 14 East Hallway
+0 0 0 0 0
+
+16
+8 17 -1 15 Cave Entrance
+1 0 0 0 0
+
+17
+-1 18 -1 16 Tunnel
+1 0 0 0 0
+
+18
+9 19 -1 17 Fork in the Road
+1 0 0 0 0
+
+19
+10 -1 22 18 Ruins
+0 5 10 0 5
+
+20
+12 -1 -1 -1 Storage Room #21
+0 0 0 11 0
+
+21
+14 -1 23 -1 Compound Outskirts
+0 0 0 0 0
+
+22
+19 -1 -1 -1 Lost Storage Suite
+0 0 0 10 0
+
+23
+21 -1 24 -1 Forest Outskirts
+1 0 0 0 0
+
+24
+23 -1 -1 -1 Crash Site
+0 0 0 0 0
+

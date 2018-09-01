@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lexington" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Lexington" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/test" />
+				</Compiler>
+				<Linker>
+					<Add option="-lcppunit" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Lexington" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lcppunit" />
+		</Linker>
+		<Unit filename="files/badEndingText.dat" />
+		<Unit filename="files/newGameText.dat" />
+		<Unit filename="files/puzzleDeath.dat" />
+		<Unit filename="files/roomData.dat" />
+		<Unit filename="files/roomDescriptions.dat" />
+		<Unit filename="include/Alien.h" />
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/Combat.h" />
+		<Unit filename="include/CombatInterface.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/GameHelper.h" />
+		<Unit filename="include/GameObjectCreator.h" />
+		<Unit filename="include/GameOverInterface.h" />
+		<Unit filename="include/HackingPuzzle.h" />
+		<Unit filename="include/HealthPack.h" />
+		<Unit filename="include/ImportantCharacter.h" />
+		<Unit filename="include/Interface.h" />
+		<Unit filename="include/Inventory.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/L_StringHelper.h" />
+		<Unit filename="include/LockpickPuzzle.h" />
+		<Unit filename="include/MathPuzzle.h" />
+		<Unit filename="include/NewGameInterface.h" />
+		<Unit filename="include/Npc.h" />
+		<Unit filename="include/NpcBase.h" />
+		<Unit filename="include/NpcNull.h" />
+		<Unit filename="include/NullItem.h" />
+		<Unit filename="include/NullPuzzle.h" />
+		<Unit filename="include/OxygenPack.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Puzzle.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="include/RoomInterface.h" />
+		<Unit filename="include/RoomManager.h" />
+		<Unit filename="include/ShipPart.h" />
+		<Unit filename="include/Spelling.h" />
+		<Unit filename="include/Weapon.h" />
+		<Unit filename="include/WordCode.h" />
+		<Unit filename="include/test/AlienTest.h" />
+		<Unit filename="include/test/CombatTest.h" />
+		<Unit filename="include/test/L_StringHelperTest.h" />
+		<Unit filename="include/test/PlayerTest.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Alien.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/Combat.cpp" />
+		<Unit filename="src/CombatInterface.cpp" />
+		<Unit filename="src/GameHelper.cpp" />
+		<Unit filename="src/GameObjectCreator.cpp" />
+		<Unit filename="src/GameOverInterface.cpp" />
+		<Unit filename="src/HackingPuzzle.cpp" />
+		<Unit filename="src/HealthPack.cpp" />
+		<Unit filename="src/ImportantCharacter.cpp" />
+		<Unit filename="src/Interface.cpp" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/L_StringHelper.cpp" />
+		<Unit filename="src/LockpickPuzzle.cpp" />
+		<Unit filename="src/MathPuzzle.cpp" />
+		<Unit filename="src/NewGameInterface.cpp" />
+		<Unit filename="src/Npc.cpp" />
+		<Unit filename="src/NpcBase.cpp" />
+		<Unit filename="src/NpcNull.cpp" />
+		<Unit filename="src/NullItem.cpp" />
+		<Unit filename="src/NullPuzzle.cpp" />
+		<Unit filename="src/OxygenPack.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Puzzle.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Unit filename="src/RoomInterface.cpp" />
+		<Unit filename="src/RoomManager.cpp" />
+		<Unit filename="src/ShipPart.cpp" />
+		<Unit filename="src/Spelling.cpp" />
+		<Unit filename="src/Weapon.cpp" />
+		<Unit filename="src/WordCode.cpp" />
+		<Unit filename="test/AlienTest.cpp" />
+		<Unit filename="test/CombatTest.cpp" />
+		<Unit filename="test/L_StringHelperTest.cpp" />
+		<Unit filename="test/PlayerTest.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,39 @@
+build:
+   stage: build
+   script:
+      - make Lexington
+   artifacts:
+      paths:
+         - Lexington
+
+build_test:
+   stage: test
+   script:
+      - make Lexington_test
+   artifacts:
+      paths:
+         - Lexington_test
+
+test:
+   stage: test
+   script:
+      - make memory_test
+   artifacts:
+      paths:
+         - memtestcheck.xml
+
+pages:
+   stage: deploy
+   dependencies:
+      - test
+   script:
+      - make coverage_test
+      - make docs
+   artifacts:
+      paths:
+         - coverage
+         - docs
+      expire_in: 14 days
+   only:
+      - master
+

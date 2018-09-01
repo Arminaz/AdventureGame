@@ -1,0 +1,1874 @@
+# depslib dependency file v1.0
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Alien.cpp
+	"Alien.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Alien.h
+	"ImportantCharacter.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Character.h
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Item.h
+	<string>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Weapon.h
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Character.cpp
+	"Character.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Combat.cpp
+	"Combat.h"
+	"CombatInterface.h"
+	"Exceptions.h"
+	<iostream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Combat.h
+	"Player.h"
+	"Alien.h"
+	"Interface.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Player.h
+	"ImportantCharacter.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/CombatInterface.h
+	"Interface.h"
+	<iostream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Exceptions.h
+	<stdexcept>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/CombatInterface.cpp
+	"CombatInterface.h"
+	"Exceptions.h"
+	<ctype.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/GameHelper.cpp
+	"GameHelper.h"
+	"Interface.h"
+	"GameOverInterface.h"
+	"Room.h"
+	"RoomManager.h"
+	"Player.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	"Exceptions.h"
+	<fstream>
+	<string>
+	"L_StringHelper.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Room.h
+	"GameObjectCreator.h"
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	"NpcBase.h"
+	<string.h>
+	<fstream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Puzzle.h
+	<string>
+	<map>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/GameOverInterface.h
+	"Interface.h"
+	<cstdlib>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/GameOverInterface.cpp
+	"GameOverInterface.h"
+	"Exceptions.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/HackingPuzzle.cpp
+	"HackingPuzzle.h"
+	"L_StringHelper.h"
+	<cmath>
+	<cstdlib>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/HackingPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/L_StringHelper.h
+	<string>
+	<iterator>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/HealthPack.cpp
+	"HealthPack.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/HealthPack.h
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Interface.cpp
+	"Interface.h"
+	"Exceptions.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Inventory.cpp
+	"Inventory.h"
+	"Item.h"
+	"ShipPart.h"
+	<iostream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/ShipPart.h
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Item.cpp
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/L_StringHelper.cpp
+	"L_StringHelper.h"
+	<sstream>
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/LockpickPuzzle.cpp
+	"LockpickPuzzle.h"
+	"L_StringHelper.h"
+	<cstdlib>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/LockpickPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/MathPuzzle.cpp
+	"MathPuzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<cstdlib>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/MathPuzzle.h
+	"Puzzle.h"
+	<string>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/NewGameInterface.cpp
+	"NewGameInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Npc.cpp
+	"Npc.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<unistd.h>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Npc.h
+	"NpcBase.h"
+	<Character.h>
+	<iostream>
+	<fstream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/OxygenPack.h
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Room.cpp
+	"Room.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"L_StringHelper.h"
+	"GameHelper.h"
+	"Exceptions.h"
+	"ShipPart.h"
+	"NullPuzzle.h"
+	"NpcNull.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<ctype.h>
+	<typeinfo>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/RoomInterface.h
+	"Interface.h"
+	"Room.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/RoomInterface.cpp
+	"RoomInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/RoomManager.cpp
+	"RoomManager.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"Exceptions.h"
+	"GameHelper.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/ShipPart.cpp
+	"ShipPart.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/Weapon.cpp
+	"Weapon.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/test/AlienTest.cpp
+	"AlienTest.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/test/CombatTest.cpp
+	"CombatTest.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521004930 source:/home/arminaz/Documents/repos/Lexington/test/main.cpp
+	<cppunit/CompilerOutputter.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/ui/text/TestRunner.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521090940 source:/home/arminaz/Documents/repos/Lexington/test/NpcTest.cpp
+	"NpcTest.h"
+
+1521090971 /home/arminaz/Documents/repos/Lexington/include/test/NpcTest.h
+	"Npc.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Alien.cpp
+	"Alien.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Alien.h
+	"ImportantCharacter.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Character.h
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Item.h
+	<string>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Weapon.h
+	"Item.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Character.cpp
+	"Character.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Combat.cpp
+	"Combat.h"
+	"Interface.h"
+	"CombatInterface.h"
+	"Exceptions.h"
+	<iostream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Combat.h
+	"Player.h"
+	"Alien.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Player.h
+	"ImportantCharacter.h"
+
+1521152444 /home/laptop/Desktop/git/Text-based-group-C/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/CombatInterface.h
+	"Interface.h"
+	<iostream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Exceptions.h
+	<stdexcept>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/CombatInterface.cpp
+	"CombatInterface.h"
+	"Exceptions.h"
+	<ctype.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/GameHelper.cpp
+	"GameHelper.h"
+	"Interface.h"
+	"GameOverInterface.h"
+	"Room.h"
+	"RoomManager.h"
+	"Player.h"
+	"Item.h"
+	<fstream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1521152443 /home/laptop/Desktop/git/Text-based-group-C/include/Room.h
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	<string.h>
+	<fstream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Puzzle.h
+	<string>
+	<map>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/GameOverInterface.h
+	"Interface.h"
+	<cstdlib>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/GameOverInterface.cpp
+	"GameOverInterface.h"
+	"Exceptions.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/HackingPuzzle.cpp
+	"HackingPuzzle.h"
+	"L_StringHelper.h"
+	<cmath>
+	<cstdlib>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/HackingPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/L_StringHelper.h
+	<string>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/HealthPack.cpp
+	"HealthPack.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/HealthPack.h
+	"Item.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Interface.cpp
+	"Interface.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Inventory.cpp
+	"Inventory.h"
+	"Item.h"
+	"ShipPart.h"
+	<iostream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/ShipPart.h
+	"Item.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Item.cpp
+	"Item.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/L_StringHelper.cpp
+	"L_StringHelper.h"
+	<sstream>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/LockpickPuzzle.cpp
+	"LockpickPuzzle.h"
+	"L_StringHelper.h"
+	<cstdlib>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/LockpickPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/MathPuzzle.cpp
+	"MathPuzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<cstdlib>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/MathPuzzle.h
+	"Puzzle.h"
+	<string>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/NewGameInterface.cpp
+	"NewGameInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/OxygenPack.h
+	"Item.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/ShipPart.cpp
+	"ShipPart.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/Weapon.cpp
+	"Weapon.h"
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/AlienTest.cpp
+	"AlienTest.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/CombatTest.cpp
+	"CombatTest.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/main.cpp
+	<cppunit/CompilerOutputter.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/ui/text/TestRunner.h>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/NpcTest.cpp
+	"NpcTest.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/test/NpcTest.h
+	"Npc.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521151704 /home/laptop/Desktop/git/Text-based-group-C/include/Npc.h
+	<Character.h>
+	<string>
+	<iostream>
+	<fstream>
+
+1521151461 source:/home/laptop/Desktop/git/Text-based-group-C/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1521151461 /home/laptop/Desktop/git/Text-based-group-C/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521498826 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Alien.cpp
+	"Alien.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Alien.h
+	"ImportantCharacter.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Character.h
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Item.h
+	<string>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Weapon.h
+	"Item.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Character.cpp
+	"Character.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Combat.cpp
+	"Combat.h"
+	"Interface.h"
+	"CombatInterface.h"
+	"Exceptions.h"
+	<iostream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Combat.h
+	"Player.h"
+	"Alien.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Player.h
+	"ImportantCharacter.h"
+
+1521399025 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/CombatInterface.h
+	"Interface.h"
+	<iostream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Exceptions.h
+	<stdexcept>
+
+1522689007 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/CombatInterface.cpp
+	"CombatInterface.h"
+	"Exceptions.h"
+	<ctype.h>
+
+1522686750 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/GameHelper.cpp
+	"GameHelper.h"
+	"Interface.h"
+	"GameOverInterface.h"
+	"Room.h"
+	"RoomManager.h"
+	"Player.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	"Exceptions.h"
+	<fstream>
+	<string>
+
+1522686750 /home/josh/Documents/CompSci2720/Text-based-group-C/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1521399025 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Room.h
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	"Npc.h"
+	<string.h>
+	<fstream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Puzzle.h
+	<string>
+	<map>
+
+1521399025 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Npc.h
+	<Character.h>
+	<string>
+	<iostream>
+	<fstream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/GameOverInterface.h
+	"Interface.h"
+	<cstdlib>
+
+1522689002 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/GameOverInterface.cpp
+	"GameOverInterface.h"
+	"Exceptions.h"
+
+1521499547 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/HackingPuzzle.cpp
+	"HackingPuzzle.h"
+	"L_StringHelper.h"
+	<cmath>
+	<cstdlib>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/HackingPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/L_StringHelper.h
+	<string>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/HealthPack.cpp
+	"HealthPack.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/HealthPack.h
+	"Item.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1522689616 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Interface.cpp
+	"Interface.h"
+
+1522683130 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Inventory.cpp
+	"Inventory.h"
+	"Item.h"
+	"ShipPart.h"
+	<iostream>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/ShipPart.h
+	"Item.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Item.cpp
+	"Item.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/L_StringHelper.cpp
+	"L_StringHelper.h"
+	<sstream>
+
+1521499737 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/LockpickPuzzle.cpp
+	"LockpickPuzzle.h"
+	"L_StringHelper.h"
+	<cstdlib>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/LockpickPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521499790 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/MathPuzzle.cpp
+	"MathPuzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<cstdlib>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/MathPuzzle.h
+	"Puzzle.h"
+	<string>
+
+1522688994 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/NewGameInterface.cpp
+	"NewGameInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1521499946 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Npc.cpp
+	"Npc.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<unistd.h>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/OxygenPack.h
+	"Item.h"
+
+1521500128 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1521500191 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1521500523 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Room.cpp
+	"Room.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"./Spelling.h"
+	"./WordCode.h"
+	"./MathPuzzle.h"
+	"./LockpickPuzzle.h"
+	"./HackingPuzzle.h"
+	"L_StringHelper.h"
+	"GameHelper.h"
+	"Exceptions.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	<iostream>
+	<cstdlib>
+	<typeinfo>
+	<fstream>
+	<ctype.h>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/RoomInterface.h
+	"Interface.h"
+	"Room.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1522688987 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/RoomInterface.cpp
+	"RoomInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522685951 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/RoomManager.cpp
+	"RoomManager.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"Exceptions.h"
+	"GameHelper.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/ShipPart.cpp
+	"ShipPart.h"
+
+1521500308 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/Weapon.cpp
+	"Weapon.h"
+
+1521500593 source:/home/josh/Documents/CompSci2720/Text-based-group-C/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/test/AlienTest.cpp
+	"AlienTest.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/test/CombatTest.cpp
+	"CombatTest.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/test/main.cpp
+	<cppunit/CompilerOutputter.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/ui/text/TestRunner.h>
+
+1521399001 source:/home/josh/Documents/CompSci2720/Text-based-group-C/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1521399001 /home/josh/Documents/CompSci2720/Text-based-group-C/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522686998 source:/home/josh/Documents/CompSci2720/Text-based-group-C/main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Exceptions.h"
+	"Player.h"
+	"RoomManager.h"
+	"GameHelper.h"
+	"Interface.h"
+	"NewGameInterface.h"
+	"Inventory.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Alien.cpp
+	"Alien.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Alien.h
+	"ImportantCharacter.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Character.h
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Item.h
+	<string>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Weapon.h
+	"Item.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Character.cpp
+	"Character.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Combat.cpp
+	"Combat.h"
+	"Interface.h"
+	"CombatInterface.h"
+	"Exceptions.h"
+	<iostream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Combat.h
+	"Player.h"
+	"Alien.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Player.h
+	"ImportantCharacter.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/CombatInterface.h
+	"Interface.h"
+	<iostream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Exceptions.h
+	<stdexcept>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/CombatInterface.cpp
+	"CombatInterface.h"
+	"Exceptions.h"
+	<ctype.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/GameHelper.cpp
+	"GameHelper.h"
+	"Interface.h"
+	"GameOverInterface.h"
+	"Room.h"
+	"RoomManager.h"
+	"Player.h"
+	"Item.h"
+	<fstream>
+	<string>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Room.h
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	"Npc.h"
+	<string.h>
+	<fstream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Puzzle.h
+	<string>
+	<map>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Npc.h
+	<Character.h>
+	<string>
+	<iostream>
+	<fstream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/GameOverInterface.h
+	"Interface.h"
+	<cstdlib>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/GameOverInterface.cpp
+	"GameOverInterface.h"
+	"Exceptions.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/HackingPuzzle.cpp
+	"HackingPuzzle.h"
+	"L_StringHelper.h"
+	<cmath>
+	<cstdlib>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/HackingPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/L_StringHelper.h
+	<string>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/HealthPack.cpp
+	"HealthPack.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/HealthPack.h
+	"Item.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Interface.cpp
+	"Interface.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Item.cpp
+	"Item.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/L_StringHelper.cpp
+	"L_StringHelper.h"
+	<sstream>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/LockpickPuzzle.cpp
+	"LockpickPuzzle.h"
+	"L_StringHelper.h"
+	<cstdlib>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/LockpickPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/MathPuzzle.cpp
+	"MathPuzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<cstdlib>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/MathPuzzle.h
+	"Puzzle.h"
+	<string>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/NewGameInterface.cpp
+	"NewGameInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Npc.cpp
+	"Npc.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<unistd.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/OxygenPack.h
+	"Item.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Room.cpp
+	"Room.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"./Spelling.h"
+	"./WordCode.h"
+	"./MathPuzzle.h"
+	"./LockpickPuzzle.h"
+	"./HackingPuzzle.h"
+	"L_StringHelper.h"
+	"GameHelper.h"
+	"Exceptions.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	<iostream>
+	<cstdlib>
+	<typeinfo>
+	<fstream>
+	<ctype.h>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/RoomInterface.h
+	"Interface.h"
+	"Room.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/ShipPart.h
+	"Item.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/RoomInterface.cpp
+	"RoomInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/RoomManager.cpp
+	"RoomManager.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"Exceptions.h"
+	"GameHelper.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/ShipPart.cpp
+	"ShipPart.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/Weapon.cpp
+	"Weapon.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/test/AlienTest.cpp
+	"AlienTest.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/test/CombatTest.cpp
+	"CombatTest.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/test/main.cpp
+	<cppunit/CompilerOutputter.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/ui/text/TestRunner.h>
+
+1521919191 source:/home/laptop/Desktop/Text-based-group-C/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1521919191 /home/laptop/Desktop/Text-based-group-C/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Exceptions.h"
+	"Player.h"
+	"RoomManager.h"
+	"GameHelper.h"
+	"Interface.h"
+	"NewGameInterface.h"
+	"Inventory.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+
+1522699150 source:/home/arminaz/Documents/repos/Lexington/src/nullPuzzle.cpp
+	"nullPuzzle.h"
+	<iostream>
+
+1522699150 /home/arminaz/Documents/repos/Lexington/include/nullPuzzle.h
+	"Puzzle.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Exceptions.h"
+	"Player.h"
+	"RoomManager.h"
+	"GameHelper.h"
+	"Interface.h"
+	"NewGameInterface.h"
+	"Inventory.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Exceptions.h
+	<stdexcept>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Player.h
+	"ImportantCharacter.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Character.h
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Item.h
+	<string>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Weapon.h
+	"Item.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Room.h
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	"Npc.h"
+	<string.h>
+	<fstream>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Alien.h
+	"ImportantCharacter.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Combat.h
+	"Player.h"
+	"Alien.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Puzzle.h
+	<string>
+	<map>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Npc.h
+	<Character.h>
+	<string>
+	<iostream>
+	<fstream>
+
+1522775795 /home/imta2720/Desktop/repos/Lexington/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/HealthPack.h
+	"Item.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/OxygenPack.h
+	"Item.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/ShipPart.h
+	"Item.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Alien.cpp
+	"Alien.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Character.cpp
+	"Character.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Combat.cpp
+	"Combat.h"
+	"Interface.h"
+	"CombatInterface.h"
+	"Exceptions.h"
+	<iostream>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/CombatInterface.h
+	"Interface.h"
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/CombatInterface.cpp
+	"CombatInterface.h"
+	"Exceptions.h"
+	<ctype.h>
+
+1522775780 source:/home/imta2720/Desktop/repos/Lexington/src/GameHelper.cpp
+	"GameHelper.h"
+	"Interface.h"
+	"GameOverInterface.h"
+	"Room.h"
+	"RoomManager.h"
+	"Player.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	"Exceptions.h"
+	<fstream>
+	<string>
+	"L_StringHelper.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/GameOverInterface.h
+	"Interface.h"
+	<cstdlib>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/L_StringHelper.h
+	<string>
+	<iterator>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/GameOverInterface.cpp
+	"GameOverInterface.h"
+	"Exceptions.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/HackingPuzzle.cpp
+	"HackingPuzzle.h"
+	"L_StringHelper.h"
+	<cmath>
+	<cstdlib>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/HackingPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/HealthPack.cpp
+	"HealthPack.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Interface.cpp
+	"Interface.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Inventory.cpp
+	"Inventory.h"
+	"Item.h"
+	"ShipPart.h"
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Item.cpp
+	"Item.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/L_StringHelper.cpp
+	"L_StringHelper.h"
+	<sstream>
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/LockpickPuzzle.cpp
+	"LockpickPuzzle.h"
+	"L_StringHelper.h"
+	<cstdlib>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/LockpickPuzzle.h
+	"Puzzle.h"
+	<string>
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/MathPuzzle.cpp
+	"MathPuzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<cstdlib>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/MathPuzzle.h
+	"Puzzle.h"
+	<string>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/NewGameInterface.cpp
+	"NewGameInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Npc.cpp
+	"Npc.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<unistd.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/nullPuzzle.cpp
+	"nullPuzzle.h"
+	<iostream>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/nullPuzzle.h
+	"Puzzle.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Room.cpp
+	"Room.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"./Spelling.h"
+	"./WordCode.h"
+	"./MathPuzzle.h"
+	"./LockpickPuzzle.h"
+	"./HackingPuzzle.h"
+	"nullPuzzle.h"
+	"L_StringHelper.h"
+	"GameHelper.h"
+	"Exceptions.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	<iostream>
+	<cstdlib>
+	<typeinfo>
+	<fstream>
+	<ctype.h>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/RoomInterface.h
+	"Interface.h"
+	"Room.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/RoomInterface.cpp
+	"RoomInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/RoomManager.cpp
+	"RoomManager.h"
+	"Interface.h"
+	"RoomInterface.h"
+	"Exceptions.h"
+	"GameHelper.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/ShipPart.cpp
+	"ShipPart.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/Weapon.cpp
+	"Weapon.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/test/AlienTest.cpp
+	"AlienTest.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/test/CombatTest.cpp
+	"CombatTest.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522775134 source:/home/imta2720/Desktop/repos/Lexington/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1522775134 /home/imta2720/Desktop/repos/Lexington/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522878973 source:/home/swij2720/assignments/Text-based-group-C/main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Exceptions.h"
+	"Player.h"
+	"RoomManager.h"
+	"GameHelper.h"
+	"Interface.h"
+	"NewGameInterface.h"
+	"Inventory.h"
+	"Item.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/Exceptions.h
+	<stdexcept>
+
+1520954434 /home/swij2720/assignments/Text-based-group-C/include/Player.h
+	"ImportantCharacter.h"
+
+1520956649 /home/swij2720/assignments/Text-based-group-C/include/ImportantCharacter.h
+	"Character.h"
+	"Inventory.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/Character.h
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/Inventory.h
+	"Item.h"
+	"Weapon.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/Item.h
+	<string>
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/Weapon.h
+	"Item.h"
+
+1522879716 /home/swij2720/assignments/Text-based-group-C/include/RoomManager.h
+	"Room.h"
+	"Interface.h"
+	"Player.h"
+	<fstream>
+
+1522951028 /home/swij2720/assignments/Text-based-group-C/include/Room.h
+	"Alien.h"
+	"Combat.h"
+	"Player.h"
+	"Puzzle.h"
+	"Interface.h"
+	"Item.h"
+	"NpcBase.h"
+	<string.h>
+	<fstream>
+
+1520954433 /home/swij2720/assignments/Text-based-group-C/include/Alien.h
+	"ImportantCharacter.h"
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/Combat.h
+	"Player.h"
+	"Alien.h"
+	"Interface.h"
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/Interface.h
+	<iostream>
+	<string>
+	<map>
+
+1522950285 /home/swij2720/assignments/Text-based-group-C/include/Puzzle.h
+	<string>
+	<map>
+
+1522951895 /home/swij2720/assignments/Text-based-group-C/include/NpcBase.h
+	<string>
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/GameHelper.h
+	"RoomManager.h"
+	"Player.h"
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/NewGameInterface.h
+	"Interface.h"
+	<string>
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/HealthPack.h
+	"Item.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/OxygenPack.h
+	"Item.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/ShipPart.h
+	"Item.h"
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/Alien.cpp
+	"Alien.h"
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/Character.cpp
+	"Character.h"
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/HealthPack.cpp
+	"HealthPack.h"
+
+1520956763 source:/home/swij2720/assignments/Text-based-group-C/src/ImportantCharacter.cpp
+	"ImportantCharacter.h"
+	"Exceptions.h"
+	"Weapon.h"
+
+1521051711 source:/home/swij2720/assignments/Text-based-group-C/src/Item.cpp
+	"Item.h"
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/OxygenPack.cpp
+	"OxygenPack.h"
+
+1522878974 source:/home/swij2720/assignments/Text-based-group-C/src/Player.cpp
+	"Player.h"
+	"Item.h"
+	"Weapon.h"
+	"Exceptions.h"
+	<iostream>
+
+1522878974 source:/home/swij2720/assignments/Text-based-group-C/src/Puzzle.cpp
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<iostream>
+	<iterator>
+	<limits>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/L_StringHelper.h
+	<string>
+	<iterator>
+
+1522878974 source:/home/swij2720/assignments/Text-based-group-C/src/RoomInterface.cpp
+	"RoomInterface.h"
+	"Exceptions.h"
+	<iostream>
+	<ctype.h>
+
+1522878973 /home/swij2720/assignments/Text-based-group-C/include/RoomInterface.h
+	"Interface.h"
+	"Room.h"
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/ShipPart.cpp
+	"ShipPart.h"
+
+1522878974 source:/home/swij2720/assignments/Text-based-group-C/src/Spelling.cpp
+	"Spelling.h"
+	"Exceptions.h"
+	"L_StringHelper.h"
+	<iostream>
+
+1520956131 /home/swij2720/assignments/Text-based-group-C/include/Spelling.h
+	"Puzzle.h"
+	<string>
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/src/Weapon.cpp
+	"Weapon.h"
+
+1522878974 source:/home/swij2720/assignments/Text-based-group-C/src/WordCode.cpp
+	"WordCode.h"
+	"Exceptions.h"
+
+1520956109 /home/swij2720/assignments/Text-based-group-C/include/WordCode.h
+	"Puzzle.h"
+	"L_StringHelper.h"
+	<map>
+	<string.h>
+	<iostream>
+
+1520954434 source:/home/swij2720/assignments/Text-based-group-C/test/AlienTest.cpp
+	"AlienTest.h"
+
+1520954434 /home/swij2720/assignments/Text-based-group-C/include/test/AlienTest.h
+	"Exceptions.h"
+	"Alien.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521225690 source:/home/swij2720/assignments/Text-based-group-C/test/CombatTest.cpp
+	"CombatTest.h"
+
+1520954434 /home/swij2720/assignments/Text-based-group-C/include/test/CombatTest.h
+	"Exceptions.h"
+	"Player.h"
+	"Alien.h"
+	"Combat.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521225690 source:/home/swij2720/assignments/Text-based-group-C/test/L_StringHelperTest.cpp
+	"L_StringHelperTest.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/test/L_StringHelperTest.h
+	"L_StringHelper.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1521225690 source:/home/swij2720/assignments/Text-based-group-C/test/PlayerTest.cpp
+	"PlayerTest.h"
+
+1521225689 /home/swij2720/assignments/Text-based-group-C/include/test/PlayerTest.h
+	"Exceptions.h"
+	"Player.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/GameObjectCreator.h
+	"Item.h"
+	"NpcBase.h"
+	"Puzzle.h"
+	"Alien.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/NpcBase.h
+	<string>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/GameObjectCreator.cpp
+	"GameObjectCreator.h"
+	"L_StringHelper.h"
+	"./Spelling.h"
+	"./MathPuzzle.h"
+	"./LockpickPuzzle.h"
+	"./WordCode.h"
+	"./HackingPuzzle.h"
+	"./NullPuzzle.h"
+	"Npc.h"
+	"NpcNull.h"
+	"HealthPack.h"
+	"OxygenPack.h"
+	"ShipPart.h"
+	"NullItem.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/NullPuzzle.h
+	"Puzzle.h"
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/NpcNull.h
+	"NpcBase.h"
+	<fstream>
+
+1522984920 /home/arminaz/Documents/repos/Lexington/include/NullItem.h
+	"Item.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/NpcBase.cpp
+	"NpcBase.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/NpcNull.cpp
+	"NpcNull.h"
+	<iostream>
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/NullItem.cpp
+	"NullItem.h"
+
+1522984920 source:/home/arminaz/Documents/repos/Lexington/src/NullPuzzle.cpp
+	"NullPuzzle.h"
+	<iostream>
+
